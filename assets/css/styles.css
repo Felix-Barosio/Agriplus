@@ -9,7 +9,45 @@ body{
     margin: 80px;
 }
 
+.products{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px 20px;
+    margin-top: 10%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+#border{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
 
+}
+.porpular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.imag img{
+    width: 150px;
+    height: 150px;
+}
+.porpular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space space-between;
+}
+
+
+.newest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
 .customers{
     letter-spacing: 1px;
     margin: 0px 0px;
