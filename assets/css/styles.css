@@ -7,6 +7,68 @@ body{
     font-family:'Poppins', sans-serif;;
 }
 
+
+.customers{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feedback_cont{
+    box-sizing: border-box;
+}
+
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.feedback .box1{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    width: 100%;
+    line-height: normal;
+    
+}
+
+.profile .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reviews{
+    color: #ed661f;
+
+}
+
+.feedback .box1:hover{
+    transform: translateY(-7px);
+    transition: all ease 0.3s;
+
+}
+
+@media(max-width:1060px){
+    .feedback .box1{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
 /*Footer 1*/
 .footer1{
     background-color: #24262b;
