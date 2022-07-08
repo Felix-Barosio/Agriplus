@@ -9,11 +9,29 @@ body{
     margin: 80px;
 }
 
+    /*Why we exist*/
+.exist{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+.exist img{
+    height: 250px;
+    
+}
+.exist h3, p{
+    
+    
+}
+
+/*categories section*/
+
 .products{
     background-color: #ffffff;
     margin: 0;
     padding: 0px 20px;
-    margin-top: 10%;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
