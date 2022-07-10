@@ -227,12 +227,20 @@ body{
     justify-content: space space-between;
 }
 
+.porpular p{
+    width: 60%;
+}
+
 
 .newest{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 0;
+}
+
+.newest p{
+    width: 60%;
 }
 
 
