@@ -288,13 +288,29 @@ body{
 }
 .more .btn{
     float: right;
-    margin: 20px;
+    margin: 10px;
     padding: 0px;
     background-color: #ffffff;
     color: black;
-    font-weight: 500;
+    font-size: 20px;
+    position: relative;
     
 }
+.more .btn:hover{
+    color: #ed661f;
+    background-color: #ffffff;
+}
+
+.more .btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ed661f;
+    height: 4px;
+    box-sizing: border-box;
+    width: 50px;
+} 
 
 
 /*Footer 1*/
