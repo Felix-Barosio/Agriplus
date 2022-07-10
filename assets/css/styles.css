@@ -272,11 +272,11 @@ body{
 }
 
 .feedback .box1{
-    width: 500px;
     box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
     background-color: #ffffff;
     padding: 20px;
     margin: 15px;
+    height: 300px;
     cursor: pointer;
     width: 100%;
     line-height: normal;
@@ -332,6 +332,10 @@ body{
     box-sizing: border-box;
     width: 50px;
 } 
+
+.messo p{
+    width: 60%;
+}
 
 
 /*Footer 1*/
