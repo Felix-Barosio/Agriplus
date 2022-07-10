@@ -504,3 +504,18 @@ ul{
     font-size: 17px;
     
 }
+
+h3{
+    position: relative;
+}
+
+h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    background-color: #ed661f;
+    height: 3px;
+    box-sizing: border-box;
+    width: 50px;
+}
