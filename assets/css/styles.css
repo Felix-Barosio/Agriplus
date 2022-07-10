@@ -3,6 +3,7 @@
 *{
     scroll-snap-align: start;
     scroll-snap-stop: always;
+   /* scroll-behavior: smooth;*/
 }
 
 body{
@@ -16,33 +17,32 @@ body{
 
           /*Nav bar section*/
 .nav{
-    padding: 0;
-    margin: 0;
+    padding: 0vw;
+    margin: 0vw;
     overflow-x: hidden;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 .header{
-    padding: 15px;
+    padding: 1.5vw;
     box-shadow: 0 0 3px #000;
-    font-size: 20px;
+    font-size: 1.5vw;
     
 
 }
 
 .header li{
     display: inline;
-    padding-left: 25px;
+    padding-left: 1.7vw;
     
     
 }
 
 .header li a{
     text-decoration: none;
-    padding: 7px;
+    padding: 0.5vw;
     transition: 0.5s ease;
     color: #ffffff;
+    font-size: 1.5vw;
 }
 
 .header li a:hover{
@@ -51,10 +51,12 @@ body{
 
 .header ul #get a{
     color: #ffffff;
+    font-size: 1.5vw;
     background-color: #ed661f;
-    border-radius: 20px;
+    border-radius: 1vw;
     float: right;
-    top: -20px;
+    top: -1.1vw;
+    
 
 }
 .header ul #get a:hover{
@@ -63,10 +65,10 @@ body{
 
 .header ul #plus a{
     float: left;
-    font-size: 25px;
+    font-size: 2.3vw;
     font-family: 'Inter', sans-serif;
-    top: -10px;
-    border-radius: 20px;
+    top: -0.8vw;
+    border-radius: 1.7vw;
     font-weight: 700;
 }
 
@@ -83,11 +85,11 @@ body{
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: 0vw;
     background-color: #ed661f;
-    height: 1px;
+    height: 0.2vw;
     box-sizing: border-box;
-    width: 50px;
+    width: 2.8vw;
 }
 
 
@@ -110,8 +112,8 @@ body{
     top: 15%;
     width: 50%;
     height: 10%;
-    font-size: 200%;
-    margin: 20px;
+    font-size: 2.2vw;
+    margin: 1%;
     display: flex;
     justify-content: flex-start;
 }
@@ -119,8 +121,8 @@ body{
     position: absolute;
     top: 45%;
     width: 50%;
-    margin: 20px;
-    font-size: 150%;
+    margin: 1%;
+    font-size: 1.7vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -135,7 +137,7 @@ body{
     width: 14%;
     height:10%;
     font-size: 1.6vw;
-    margin: 20px;
+    margin: 1%;
     background-color: #ed661f;
     color: #ffffff;
     border: none;
@@ -170,8 +172,8 @@ body{
     height: 10vw;
     width: 63%;
     margin-left: 25%;
-    box-shadow: 0px 3px 10px grey;
-    top: 80%;
+    box-shadow: 0vw 0.5vw 1vw grey;
+    top: 79%;
     
     
     
@@ -181,14 +183,20 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 35%;
+    width: 20vw;  
+}
 
-    
+.midd1{
+    font-size: 1.1vw;
+}
+.middp{
+    font-size: 1.2vw;
 }
 
 .clients ul li a{
     text-decoration: none;
-    padding: 0px;
+    padding: 0vw;
+    margin: 0%;
 
 }
 
@@ -200,23 +208,27 @@ body{
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 40px;
-    margin-bottom: -20px;
+    padding: 2.3vw;
+    margin-bottom: -1.2vw;
     
 }
 .exist img{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 1.8vw;
     
 }
+.text h3, p{
+    font-size: 1.5vw;
+}
 .explore .btn{
-    width: 150px;
-    height: 30px;
-    font-size: 19px;
+    width: 20vw;
+    height: 1.8vw;
+    font-size: 1.7vw;
 
 }
+
 
 /*categories section*/
 
@@ -233,25 +245,25 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    padding: 1.0vw;
     position: relative;
 }
 
 .mine::before{
     content: '';
     position: absolute;
-    bottom: -1px;
+    bottom: -0.1vw;
     background-color: #ed661f;
-    height: 3px;
+    height: 0.2vw;
     box-sizing: border-box;
-    width: 60px;
+    width: 6vw;
 }
 
 #border{
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 10px;
+    padding: 1.0vw;
     
 
 }
@@ -259,13 +271,19 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 1.0vw 0vw;
     
+}
+.imag p, h4{
+    font-size: 1.3vw;
+}
+.cash{
+    font-size: 1.3vw;
 }
 
 .imag img{
-    width: 150px;
-    height: 150px;
+    width: 12vw;
+    height: 12vw;
 }
 .porpular{
     display: flex;
@@ -274,33 +292,28 @@ body{
 }
 
 .porpular p{
-    width: 70%;
-}
-.more img{
-    width: 20px;
-    height: 100%;
-    color: #ed661f;
+    width: 10vw;
 }
 
 .newest{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 1.0vw 0vw;
 }
 
 .newest p{
-    width: 60%;
+    width: 10vw;
 }
 
 
        /*Customer feedback*/
 .customers{
-    letter-spacing: 1px;
-    margin: 0px 0px;
-    padding: 0px 20px;
+    letter-spacing: 0.1vw;
+    margin: 0vw 0vw;
+    padding: 0vw 1.5vw;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.8vw;
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
@@ -316,28 +329,30 @@ body{
     box-sizing: border-box;
     align-items: center;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.9vw;
     background-color: #ffffff;
     
 }
 
 .feedback .box1{
-    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.1);
+    box-shadow: 0.5vw 0.5vw 1.9vw rgb(0, 0, 0, 0.1);
     background-color: #ffffff;
-    padding: 20px;
-    margin: 15px;
-    height: 300px;
+    padding: 1.9vw;
+    margin: 1.5vw;
+    height: 30vw;
     cursor: pointer;
     width: 100%;
     line-height: normal;
     
 }
 
-.profile .image{
+.profile img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.8vw;
+    width: 10vw;
+    height: 10vw;
 }
 
 .reviews{
@@ -359,13 +374,18 @@ body{
 }
 .more .btn{
     float: right;
-    margin: 10px;
-    padding: 0px;
+    margin: 1vw;
+    padding: 0vw;
     background-color: #ffffff;
     color: black;
-    font-size: 20px;
+    font-size: 1.4vw;
     position: relative;
     
+}
+
+.more img{
+    width: 3vw;
+    height: 2vw;
 }
 .more .btn:hover{
     color: #ed661f;
@@ -375,17 +395,26 @@ body{
 .more .btn::before{
     content: '';
     position: absolute;
-    left: 0;
-    bottom: -10px;
+    left: 0vw;
+    bottom: -0.5vw;
     background-color: #ed661f;
-    height: 4px;
+    height: 0.3vw;
     box-sizing: border-box;
-    width: 50px;
+    width: 2.9vw;
 } 
 
 .messo p{
-    width: 60%;
+    width: 8vw;
+    font-size: 1.3vw;
 }
+.name{
+    font-size: 1.5vw;
+}
+.messo img{
+    width: 0vw;
+    height: 0vw;
+}
+
 
 
 /*Footer 1*/
@@ -398,7 +427,7 @@ body{
 
 }
 .footer1 h4{
-    font-size: 19px;
+    font-size: 1.7vw;
 }
 
 .footer1 p{
@@ -452,6 +481,9 @@ body{
     color: #3a27e4;
     background-color: #ffffff;
 }
+.subscribe h4, p{
+    font-size: 1.4vw;
+}
 
 /*Footer*/
 .footer{
@@ -482,12 +514,12 @@ ul{
 }
 
 .cont2 h4{
-    font-size: 19px;
+    font-size: 1.4vw;
     margin-bottom: 20px;
     color: #ffffff;
     font-weight: 700;
     position: relative;
-    right: -40px;
+    right: -1.9vw;
     
 }
 
@@ -495,11 +527,11 @@ ul{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -0.3vw;
     background-color: #ed661f;
-    height: 2px;
+    height: 0.2vw;
     box-sizing: border-box;
-    width: 50px;
+    width: 3.9vw;
 }
 
 .cont2 ul li:not(:first-child){
@@ -508,7 +540,7 @@ ul{
 }
 
 .cont2 ul li a{
-    font-size: 16px;
+    font-size: 1.5vw;
     color: #ffffff;
     text-decoration: none;
     font-weight: 400;
@@ -567,21 +599,22 @@ ul{
 .last {
     color: #ffffff;
     text-align: center;
-    font-size: 17px;
+    font-size: 1.5vw;
     
 }
 
 h3{
     position: relative;
+    font-size: 1.7vw;
 }
 
 h3::before{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -7px;
+    bottom: -0.3vw;
     background-color: #ed661f;
-    height: 3px;
+    height: .2vw;
     box-sizing: border-box;
-    width: 50px;
+    width: 3.9vw;
 }
