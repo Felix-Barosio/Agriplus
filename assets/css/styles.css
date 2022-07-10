@@ -85,11 +85,11 @@ body{
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0vw;
+    bottom: 0.2vw;
     background-color: #ed661f;
     height: 0.2vw;
     box-sizing: border-box;
-    width: 2.8vw;
+    width: 3.9vw;
 }
 
 
