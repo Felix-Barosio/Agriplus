@@ -51,7 +51,7 @@ body{
 
 .header ul #get a{
     color: #ffffff;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     background-color: #ed661f;
     border-radius: 1vw;
     float: right;
@@ -126,9 +126,8 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.buy, .sell{
-    display: flex;
-    flex-wrap: wrap;
+.buy h4{
+    font-size: 2.2vw;
 }
 
 .btn1{
@@ -239,6 +238,9 @@ body{
     box-sizing: border-box;
     flex-wrap: wrap;
     
+}
+.head h2{
+    font-size: 1.9vw;
 }
 
 .mine{
@@ -519,7 +521,7 @@ ul{
     color: #ffffff;
     font-weight: 700;
     position: relative;
-    right: -1.9vw;
+    right: -40px;
     
 }
 
