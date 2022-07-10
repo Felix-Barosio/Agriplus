@@ -10,8 +10,7 @@ body{
     line-height: 1.5;
     font-family:'Poppins', sans-serif;
     background: black;
-    padding-left: 10%;
-    padding-right: 10%;
+    
 }
 
 
@@ -172,7 +171,7 @@ body{
     width: 63%;
     margin-left: 25%;
     box-shadow: 0vw 0.5vw 1vw grey;
-    top: 79%;
+    top: 83%;
     
     
     
