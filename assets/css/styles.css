@@ -257,7 +257,11 @@ body{
 .porpular p{
     width: 60%;
 }
-
+.more img{
+    width: 20px;
+    height: 100%;
+    color: #ed661f;
+}
 
 .newest{
     display: flex;
