@@ -228,6 +228,25 @@ body{
     flex-wrap: wrap;
     
 }
+
+.mine{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+.mine::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    background-color: #ed661f;
+    height: 3px;
+    box-sizing: border-box;
+    width: 60px;
+}
+
 #border{
     display: flex;
     text-align: center;
@@ -255,7 +274,7 @@ body{
 }
 
 .porpular p{
-    width: 60%;
+    width: 70%;
 }
 .more img{
     width: 20px;
