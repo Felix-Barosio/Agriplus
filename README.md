@@ -1,4 +1,4 @@
-# Portfolio
+# AgriPlus Landing Page
 
 By Felix Barosio
 
@@ -14,6 +14,7 @@ It is a description of my current project.
 - [Technology Used](#technology-used)
 - [References](#reference)
 - [license and copyright](#license-and-copyright)
+- [Author Information](#author-information)
 
 
 ## Description
@@ -56,3 +57,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
+## Author Information
+
+Barosio Felix - barosiofelix@gmail.com
