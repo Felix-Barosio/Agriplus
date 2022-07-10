@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+*{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
 
 body{
     line-height: 1.5;
     font-family:'Poppins', sans-serif;
     background: black;
-    margin: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -23,12 +27,15 @@ body{
     padding: 15px;
     box-shadow: 0 0 3px #000;
     font-size: 20px;
+    
 
 }
 
 .header li{
     display: inline;
-    padding-left: 45px;
+    padding-left: 25px;
+    
+    
 }
 
 .header li a{
@@ -45,7 +52,7 @@ body{
 .header ul #get a{
     color: #ffffff;
     background-color: #ed661f;
-    border-radius: 30px;
+    border-radius: 20px;
     float: right;
     top: -20px;
 
@@ -59,6 +66,8 @@ body{
     font-size: 25px;
     font-family: 'Inter', sans-serif;
     top: -10px;
+    border-radius: 20px;
+    font-weight: 700;
 }
 
 .header ul #plus a:hover{
@@ -95,20 +104,25 @@ body{
 
 }
 
+
 .buy{
     position: absolute;
-    top: 20%;
+    top: 15%;
     width: 50%;
     height: 10%;
     font-size: 200%;
     margin: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
 .sell{
     position: absolute;
-    top: 35%;
+    top: 45%;
     width: 50%;
     margin: 20px;
     font-size: 150%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .buy, .sell{
     display: flex;
@@ -117,13 +131,14 @@ body{
 
 .btn1{
     position: absolute;
-    top: 55%;
-    width: 10%;
-    height:40px;
-    font-size: 15px;
+    top: 75%;
+    width: 14%;
+    height:10%;
+    font-size: 1.6vw;
     margin: 20px;
     background-color: #ed661f;
     color: #ffffff;
+    border: none;
 }
 
 .ground1{
@@ -156,7 +171,7 @@ body{
     width: 63%;
     margin-left: 25%;
     box-shadow: 0px 3px 10px grey;
-    top: 81%;
+    top: 80%;
     
     
     
@@ -166,7 +181,7 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100%;
-    width: 30%;
+    width: 35%;
 
     
 }
@@ -208,14 +223,16 @@ body{
 .products{
     background-color: #ffffff;
     margin: 0;
-    padding: 0px 20px;
+    padding: 1%;
     box-sizing: border-box;
     flex-wrap: wrap;
+    
 }
 #border{
     display: flex;
     text-align: center;
     justify-content: center;
+    padding: 10px;
     
 
 }
@@ -353,8 +370,12 @@ body{
     background-color: black;
     color: #ffffff;
     text-align: center;
-    padding: 50px 40px;
+    padding-top: 5%;
+    
 
+}
+.footer1 h4{
+    font-size: 19px;
 }
 
 .footer1 p{
@@ -415,7 +436,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    padding: 10px 0;
+    
 }
 
 ul{
